@@ -1,0 +1,23 @@
+form{
+    background-color: black;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: solid 4px blue;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 10%;
+}
+
+input{
+    padding: 1px;
+    margin: 10px;
+}
+
+.codigo{
+    width: 100px;
+}
+
+.valor{
+    width: 100px;
+}
