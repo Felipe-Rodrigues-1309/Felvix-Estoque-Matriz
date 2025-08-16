@@ -6,12 +6,30 @@ form{
     border: solid 4px blue;
     color: aliceblue;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 2%;
+}
+
+/*.formulario{
+    background-color: rgba(43, 226, 198, 0.455);
+    border: solid 2px white;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    padding: 2%;
+}*/
+
+.alinhar{
+    display: flex;
+    padding: 1px;
+    margin: 5px;
+    margin-left: 10px;
 }
 
 input{
-    padding: 1px;
-    margin: 10px;
+ border-radius: 5px;
+ margin-left: 10px;
 }
 
 .codigo{
@@ -19,5 +37,9 @@ input{
 }
 
 .valor{
+    width: 100px;
+}
+
+.marca{
     width: 100px;
 }
