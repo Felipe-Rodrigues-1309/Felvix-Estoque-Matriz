@@ -1,45 +1,37 @@
-form{
+body{
     background-color: black;
-    border-radius: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
-    border: solid 4px blue;
-    color: aliceblue;
-    text-align: center;
-    margin-top: 2%;
 }
 
-/*.formulario{
-    background-color: rgba(43, 226, 198, 0.455);
-    border: solid 2px white;
+    form{
+    background-color: rgba(8, 11, 157, 0.329);
     border-radius: 5px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 100px;
-    margin-top: 100px;
-    padding: 2%;
-}*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    border: solid 4px #00ff00;
+    color: aliceblue;
+    text-align: center;
+    }
 
-.alinhar{
+.logo{
+    margin-top: -35%;
+    margin-bottom: -35%;
+}
+
+
+
+.alinhar-label{
     display: flex;
     padding: 1px;
     margin: 5px;
-    margin-left: 10px;
+    margin-left: 30px;
+    min-width: 100px;
+    align-items: center;
 }
 
 input{
+ display: flex;
  border-radius: 5px;
  margin-left: 10px;
 }
 
-.codigo{
-    width: 100px;
-}
-
-.valor{
-    width: 100px;
-}
-
-.marca{
-    width: 100px;
-}
